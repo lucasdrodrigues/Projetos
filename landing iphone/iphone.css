@@ -1,0 +1,151 @@
+body{
+    background-color: lightslategray;
+    font-family: Arial,sans-serif;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    padding-left: 170px;
+    font-family: Arial,sans-serif;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+img{
+    width: 300px;
+    margin-top: 50px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 37px;
+}
+
+.inf-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 50px;
+}
+
+.inf{
+    float: right;
+    width: 60%;
+    margin-top: 70px;
+    border: 1px;
+    border-radius:10px;
+    font-size: 15px;
+
+}
+
+.iph{
+    text-align: center;
+    font-size: 30px
+}
+
+
+.itns{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 0px;
+    font-size:20px ;
+}
+
+.itns2{
+        display: inline-block;
+        margin: 6px 0;
+        padding: 3px 6px;
+        cursor: pointer;
+}
+
+.itns2:hover{
+    background-color: rgb(0, 75, 122);
+  transition: 0.3s ease;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 6px;
+ 
+    
+}
+
+.btn{
+    border: 1px solid white;
+    background-color: #28a745;
+    border-radius: 12px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.btn:active{
+    background-color:#16812f ;
+    font-size:32px;
+    
+}
+
+.sts{
+    margin-right: 33px;
+}
+
+.list1>li{
+list-style: none;
+padding-right:5px;
+margin-top:20px ;
+float: right;
+margin-right: 10px;
+font-size: 20px;
+}
+
+li:hover{
+    background-color: rgb(0, 75, 122);
+    transition: 0.3s ease;
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 3px;
+    
+   
+}
+
+
+
+
+
+.ul2{
+ 
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.list2 > li {
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 0;
+  padding: 5px 20px;
+  border-radius: 10px;
+  transition:0.3s ease;
+}
+
+.list2 > li:hover {
+  background-color: #004d73;
+
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.apple{
+    width: 30px;
+    margin-left: 40px;
+    ;
+}
+
+
+
